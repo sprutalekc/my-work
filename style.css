@@ -1,0 +1,170 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 110px 0 110px;
+    font-family: 'Nunito', sans-serif;
+    align-items: center;
+}
+
+.navHeader{
+    display: flex;
+}
+
+.regHeader{
+    display: flex;
+}
+
+.basHeader{
+    padding: 10px;
+    background-color: #F0880A;
+    border-radius: 20px;
+}
+
+.logoHeader{
+    font-size: 36px;
+}
+
+.m60{
+    margin-left: 6px;
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.contentHeader{
+    display: flex;
+    align-items: center;
+    padding-top: 170px;
+    padding-left: 120px;
+    font-size: 30px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.product-button{
+    padding: 10px;
+    background-color: #f1d6bc62;
+    border-radius: 20px;
+    display: flex;
+    height: 50%;
+    float: right;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+img{
+    height: 300px;
+}
+
+.product-price{
+    height: 50%;
+    float: left;
+    padding-top: 10px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+}
+
+.cotainer-Shous{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80rem;
+    height: 1090px;
+}
+
+.border{
+    height: 500px;
+    border: 10px ;
+    padding: 10px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    display: grid 20px;
+    color: rgb(0, 0, 0, 0.6);
+    padding-bottom: 15px;
+}
+
+.gl{
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+}
+
+.position {
+    position: fixed;
+    background-color: #fafafaf8;
+    box-shadow: 0 4px 20px rgb(0, 0, 0, 0.1);
+    width: 100%;
+    height: 105px;
+    justify-content: space-around;
+    z-index: 2;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.product-button:hover{
+    background:#f0a46a83 ;
+    transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+}
+
+.text{
+    color: 
+    #F0841D
+    ;
+}
+
+.basHeader:hover{
+    background:rgba(207, 92, 4, 0.758);
+    transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+}
+
+.footer{
+    padding-top: 44px;
+}
+
+.footer2{
+    padding-top: 8px;
+}
+
+.footer3{
+    padding-top: 44px;
+}
+
+.footer4{
+    padding-top: 25px;
+}
+
+.footer5{
+    padding-top: 24px;
+}
+
+@media (max-width: 415px) {
+    .cotainer-Shous{
+        width: 1100px;
+}
+}
+
+img{
+    transition: all 1s ease;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+
+.div{
+    z-index: 0;
+}
